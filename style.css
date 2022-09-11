@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+body {
+    background-image: url("assets/img/background.jpg");
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-img{
+    width: 20vw;
+}
+
+.main-card{
+    background-color: rgba(0,0,0,0.5);
+    width: 70%;
+    height: 90%;
+
+    color: white;
+    padding: 5vw;
+}
+
+.image-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    text-align: center;
+    font-size: 30px;
+    color: green;
+  }
+.booking-box{
+    width: 100%;
+    background-color: lime;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+.booking-button{
+    margin: 5px 0 5px 0;
+}
+
+.checkbox-selector{
+    margin-right: 10px;
+}
+.user-box {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+}
+.user-name{
+    display: inline-block;
+}
+
+.battery-charge-box-1{
+    height: 30px;
+    width: 30%;
+    background-color: coral;
+}
+
+.battery-charge-box-2{
+    height: 30px;
+    width: 50%;
+    background-color: green;
+}
+
+.battery-charge-box-3{
+    height: 30px;
+    width: 10%;
+    background-color: darkred;
+}
